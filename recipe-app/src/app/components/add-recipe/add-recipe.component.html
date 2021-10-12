@@ -1,0 +1,20 @@
+<p>add-recipe works!</p>
+
+<form class="form" [formGroup]="recipeForm" (ngSubmit)="onReactiveFormSubmit()">
+    <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-input" id="name" formControlName="name" autocomplete="off">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="description" class="form-label">Description</label>
+        <input type="text" class="form-input" formControlName="description" autocomplete="off">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="ingredients" class="form-label">Ingredients</label>
+        <input type="text" class="form-input" formControlName="ingredients" autocomplete="off">
+    </div>
+    <br>
+    <button type="submit" class="form-btn">Submit</button>
+</form>

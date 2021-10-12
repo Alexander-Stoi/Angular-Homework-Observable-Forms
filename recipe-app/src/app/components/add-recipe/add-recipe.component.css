@@ -1,0 +1,19 @@
+.form {
+    background-color: aliceblue;
+    width: 300px;
+    padding: 10px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    padding: 5px;
+}
+
+.form-btn {
+    width: 100% ;
+}
+
